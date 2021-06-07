@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.component {
+  margin: 20px;
+}
+.component .top {
+}
+.component .bottom {
+  display: flex;
+}
+.component .left .text {
+  width: 400px;
+  height: 300px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.component .right {
+  margin-left: 20px;
+}
+table {
+  margin: 0px;
+  height: max-content;
+}
+.component .right table .icon {
+  width: 70px;
+  height: 70px;
+  background-color: hotpink;
+  color: aliceblue;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+td {
+  border-bottom: dotted;
+  border-color: red;
+  margin: 10px 0px;
+}
