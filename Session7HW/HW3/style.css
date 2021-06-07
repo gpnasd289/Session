@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.component {
+  margin: 40px 40px;
+}
+form {
+  background-color: rgb(231, 227, 227);
+  padding: 30px;
+  border-radius: 2px;
+}
+input {
+  width: 49%;
+  height: 30px;
+  border-radius: 2px;
+  border-color: white;
+}
+select {
+  width: 49.5%;
+  height: 30px;
+  border-radius: 2px;
+  border-color: white;
+}
+textarea {
+  width: 99%;
+  height: auto;
+  border-radius: 2px;
+}
+button {
+  background-color: black;
+  color: white;
+  width: 99%;
+  height: 30px;
+  border-radius: 2px;
+}

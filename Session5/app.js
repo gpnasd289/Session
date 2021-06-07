@@ -12,13 +12,14 @@
 
 // let a = [1, -10, 5, 18, -9, 5];
 // function findMaxDiff(arr){
+//     if (arr.length < 2) {
+//         return 0;
+//     }
 //     let maxDiff = 0;
 //     for (let i = 0; i < findMaxDiff.length; i++) {
-//     for (let j = 1; j <= findMaxDiff.length; j++) {
-//         if(Math.abs(arr[i]-arr[j]) > maxDiff){
-//             maxDiff = Math.abs(arr[i]-arr[j]);
+//         if(Math.abs(arr[i]-arr[i+1]) > maxDiff){
+//             maxDiff = Math.abs(arr[i]-arr[i+1]);
 //         }
-//     }
 //     }
 //     return maxDiff;
 // }

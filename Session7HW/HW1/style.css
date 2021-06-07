@@ -1,0 +1,52 @@
+/* form .username {
+  border: 1px solid #808080;
+  height: 30px !important;
+  width: 200px;
+  border-radius: 1px;
+}
+form .email {
+  border: 1px solid #808080;
+  height: 30px !important;
+  width: 200px;
+  border-radius: 1px;
+}
+form .subject {
+  border: 1px solid #808080;
+  height: 30px !important;
+  width: 200px;
+  border-radius: 1px;
+} */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.component {
+  width: 95%;
+  margin: 40px 40px;
+}
+form .input {
+  border: 1px solid #808080;
+  height: 40px;
+  width: 400px;
+  border-radius: 1px;
+  margin-top: 10px;
+}
+form .email {
+  margin-left: 10px;
+}
+form .subject {
+  width: 815px;
+}
+form .message {
+  width: 815px;
+  height: 400px;
+}
+form .submit {
+  width: 150px;
+  background-color: blue;
+  color: white;
+}
+a {
+  float: right;
+  margin-right: 50px;
+}

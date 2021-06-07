@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.title {
+  font-size: 50px;
+  color: aliceblue;
+  color: rgb(red, green, blue);
+  background-color: gray;
+  border: 5px solid blue;
+}

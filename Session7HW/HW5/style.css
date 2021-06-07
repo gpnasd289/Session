@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.component {
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  background-color: silver;
+}
+.component .top {
+  text-align: center;
+}
+table {
+  margin-right: 20px;
+}
+.component .bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.component .bottom .box-1 {
+  background-color: aqua;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+}
+.component .bottom .box-2 {
+  background-color: white;
+  text-align: left;
+  width: 300px;
+  height: 150px;
+}
+.component .bottom .box-2 .text-1 {
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.component .bottom .box-2 .text-2 {
+  text-align: left;
+  font-size: 12px;
+  color: gray;
+  padding: 20px;
+}
